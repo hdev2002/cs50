@@ -1,0 +1,17 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.success {
+    @extend %message;
+    background-color: green;
+}
+
+/* The percent symbol, within the context of a .scss file, acts as a "placeholder".
+These are styles that can be reused across multiple elements. Use these to
+prevent redundancies. */
